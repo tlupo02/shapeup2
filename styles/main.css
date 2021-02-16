@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+h1{ 
+    font-size: 300%;
+}
+header h2 {
+    font-size: 250%;
+    color: steelblue;
+    font-style: italic;
+    text-shadow: 2px 2px 15px hotpink;
+}
+
+header h3 {
+    font-size: 150%;
+}
+header img {
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+section h2, section h3, aside h2{
+    font-size: 150%;
+}
+
+/* link colors section */
+/*unvisited link*/
+section a:link{
+    color: maroon;
+}
+
+section a:visited {
+   color:  maroon;
+}
+
+section a:hover {
+    color: steelblue;
+}
+
+section a:active {
+    color: steelblue;
+}
+
+
+/*link colors for aside*/
+aside a:link{
+    color: steelblue;
+}
+
+aside a:visited {
+   color:  steelblue;
+}
+
+aside a:hover {
+    color: maroon;
+}
+
+aside a:active {
+    color: maroon;
+}
+
+aside a {
+    font-weight: bold;
+}
+
+li {
+    margin-top: 5px;
+}
+
+footer p {
+    font-size: 75%;
+    text-align: center;
+}
